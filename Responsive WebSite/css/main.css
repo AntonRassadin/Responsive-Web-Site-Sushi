@@ -1,0 +1,239 @@
+/*General Rules*/
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Handlee', cursive;
+  font-size: 100%;
+  background: url("../images/background.jpg");
+  background-attachment: fixed;
+}
+
+/* Header */
+
+#wrapper {
+  height: 100%;
+  background: url("../images/sectionbackground.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-bottom: 1em solid skyblue;
+}
+
+#content {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+#content-box {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#header {
+  height: 100%;
+}
+
+#header.animated  {
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+#header p {
+  font-size: 3em;
+  font-weight: bolder;
+  margin: 1em 0;
+}
+
+#header p:hover {
+  color: gray;
+}
+
+#header img {
+  width: 23em;
+  display: inline;
+}
+
+#header #content a {
+  background-color: white;
+  font-size: 3em;
+  padding: 0.15em 0.5em;
+  color: blue;
+  text-decoration: none;
+  opacity: 0.6;
+  border: 0.15em solid black;
+}
+
+#header #content a:hover {
+  background-color: skyblue;
+  opacity: 1;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: transparent;
+  border: 0;
+  padding: 2em;
+}
+
+
+.navbar button {
+  background-color: red;
+}
+
+.navbar button:hover {
+  background-color: black!important;
+}
+
+.navbar-brand {
+  color: black!important;
+  font-size: 6em;
+}
+
+.navbar a:not(.navbar-brand) {
+  color: red!important;
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+.navbar a:hover {
+  color: black!important;
+}
+
+/*Photos*/
+
+#photos {
+  padding: 3em 2em;
+}
+
+.animatedOnShowedRight .animatedOnShowedLeft {
+  -webkit-animation-delay: .3s;
+  -moz-animation-delay: .3s;
+  animation-delay: .3s;
+}
+
+
+.col-md-4 {
+  position: relative;
+}
+
+#photos img {
+  width: 100%;
+  height: 23em;
+  object-fit:cover;
+  margin: 2em 0;
+  border-radius: 2em;
+  transition: transform 2s ease-in-out;
+}
+
+#photos img:hover {
+  opacity: 0.9;
+  transform: scale(1.15);
+}
+
+.photolink h2{
+    background-color: rgba(255,255,255,0.3);
+}
+
+#photos h2 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-top: 0.15em solid black;
+  border-bottom: 0.15em solid black;
+  color: black;
+  display: none;
+  font-size: 4em;
+}
+
+#photos .col-md-4:hover h2 {
+  display: block;
+}
+/* Form */
+
+#form {
+  padding: 3em 2em;
+}
+
+#form h1 {
+  color:red;
+}
+
+.form {
+  background-color: rgba(0,0,0,0.6);
+  padding: 2em 1em;
+  height: 60em;
+}
+
+.form h3 {
+  color: red;
+}
+
+.form p {
+  color: white;
+  font-size:  2em;
+}
+
+.form button{
+  background-color:  skyblue;
+  font-size: 3em;
+}
+
+.iframe {
+  padding: 2em 1em;
+  height: 60em;
+  background-color: white;
+}
+
+.iframe iframe{
+  height: 40em;
+}
+
+/* footer */
+
+footer .fab {
+  color: deepskyblue;
+  font-size: 3em;
+}
+
+footer h3 {
+  color:azure;
+  font-size: 3em;
+}
+
+/*scroll button*/
+
+#scroller{
+    position: fixed;
+    right: 1.5em;
+    bottom: 1.5em;   
+    background: url("../images/arrow.png") no-repeat left top;  
+    background-size: 100%;
+    opacity: 0.8;
+    border-radius: 6px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    display:none;
+}
+
+#scroller:hover{opacity: 1}
+
+
+
+
+
+
+
+
+
+
+
