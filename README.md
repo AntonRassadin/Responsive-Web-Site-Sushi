@@ -1,3 +1,3 @@
 # Responsive Web Site Sushi
 
-A responsive web site maked from guideline, using Bootstrap and jQuery.
+A responsive web site, maked using Bootstrap and jQuery.
